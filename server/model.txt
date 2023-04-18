@@ -1,0 +1,7 @@
+CREATE TABLE user_bank (
+  id BIGSERIAL PRIMARY KEY,
+  nama VARCHAR(50) NOT NULL,
+  uang NUMERIC(30,2) NOT NULL
+);
+
+untuk membuat table simple transaction hanya memerlukan id nama dan uang
